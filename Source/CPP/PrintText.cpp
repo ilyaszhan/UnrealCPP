@@ -25,3 +25,8 @@ void APrintText::Tick(float DeltaTime)
 
 }
 
+void APrintText::OnPrint_Implementation()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, PrintText);	
+}
+

@@ -18,7 +18,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString PrintText;
 
-	UFUNCTION(Blueprintable, BlueprintImplementableEvent, Category = "PrintText")
+	UFUNCTION(Blueprintable, BlueprintNativeEvent, Category = "PrintText")
 	void OnPrint();
 
 protected:
